@@ -1,0 +1,784 @@
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.5.1.js"integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="font/style.css">
+     <link rel="stylesheet" href="product.css">
+     <link rel="stylesheet" href="select.css">
+    
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+       <style>
+    body, html {
+        color: #3C3F41;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+        overflow-x: hidden;
+        position: relative;
+        
+      }   
+ 
+    </style>
+</head>
+<body>
+    
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="warrper">
+    
+  <nav class="navbar navbar-expand-lg navbar-light p-0 justify-content-center" id="sidebar">
+
+                <div class="w-100">
+                      <div class="text-center"><img src='img/asap%202020%201.png' alt="asap" id="logo-image-1" ></div>
+                    <div class="input-group mt-2 mx-4" style="width: auto;">
+                      <div class="input-group-prepend ">
+                        <a href="#"class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></a>
+                      </div>
+                      <input type="text" class="form-control" id="btnbtn" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="flags mt-3"><center>
+                        <img src="img/united-kingdom-flag-icon-32.png" alt="uk">
+                        <img src="img/france-flag-icon-32.png" alt="fr">
+                        <img src="img/portugal-flag-icon-32.png" alt="pr">
+                        <img src="img/spain-flag-icon-32.png" alt="sp"></center>
+                    </div>
+                    <div class="d-flex flex-column mt-2">
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">Loja</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">Reparações</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">Blog</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">Testemunhos</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">Galeria</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">Aminhaconta</p></a>
+                   
+                   
+                  </div>
+                    <center class="mt-4" style="color:var(--text-third-color)">
+                    <i class="fab fa-facebook-f fa-sm icon-bor-1-fb  mx-1" ></i>
+                    <i class="fab fa-instagram fa-sm icon-bor-1 mx-1"  ></i>
+                    <i class="fab fa-twitter fa-sm icon-bor-1 mx-1"></i>
+                    <i class="fab fa-youtube fa-sm icon-bor-1 mx-1 " ></i>
+                    <i class="fab fa-pinterest-p fa-sm icon-bor-1 mx-1" ></i>
+                    </center>
+                </div>
+           
+        </nav>
+        </div>
+</div>
+
+
+ <div id="SidebarIphone" class="sidebarIphone" style="z-index: 2">
+     
+  <p class="dropdown-flag" style="text-align: center">Iphone</p>
+  <nav class="navbar navbar-expand-lg navbar-light justify-content-center p-0 " id="sidebar">
+     
+<div class="d-flex flex-column mt-3 w-100 "> 
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 6s</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 6s Plus</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 7</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 7 Plus</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 8</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 8 Plus</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone X</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone XS</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 11</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 11 Pro</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 11 Pro Max</p></a>
+                   
+                   
+                 </div>
+           
+        </nav>
+     </div>
+    
+    <div id="SidebarAcc" class="sidebarAcc">
+   <p class="dropdown-flag" style="text-align: center">Aacessórios</p>
+  
+  <nav class="navbar navbar-expand-lg navbar-light justify-content-center p-0" id="sidebar">
+
+                    <div class="d-flex flex-column mt-3 w-100 mb-4 "> 
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">AirPhones</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">AirPhones Pro</p></a>
+
+
+      </div>
+           
+        </nav>
+        </div>
+
+
+
+
+<header> 
+      <nav class="navbar  sticky-top navbar-expand-lg bgs-transparent py-0 justify-content-between" style="height: 40px;    flex-flow: row nowrap;">
+        <img src='img/asap.png' alt="asap" id="logo-image">
+            <p id="title-text"> <a class="iPhones " onclick="openNavIphone()">iPhones </a> |  <a class="Aacessórios" onclick="openNavAcc()">Aacessórios</a></p>
+        
+        <div class="icons-bars pr-2">  
+            <i class="fas fa-shopping-cart fa-flip-horizontal  2x mt-1" ></i>
+             <a type="button" id="sidebarCollpase">
+              <a class=" float-right" > <span  ><i class="burger-icon fas fa-bars  2x"></i> </span></a>  
+            </a>
+         </div>
+    </nav>  
+</header>
+    <section id="phone-name" class="sticky-top">
+        <div class="containers-1">
+        <div class="d-flex justify-content-center">
+            <p id="iphone-name">“iPhone 11 Pro Verde meia-noite 256 Gb (A+++)” foi adicionado ao seu carrinho</p>
+            
+        </div>
+        </div>    
+    </section>
+    <section>
+        <div class="btn-continue mt-3">
+            <div class="text-center">
+                <button type="submit" id="continue-btn">CONTINUAR COMPRAS</button>
+            </div>
+        </div>
+    </section>
+    <section id="phone-section-1">
+        <div class="containers">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                    <img src="img/iPhone_11.jpg" alt="iphone" style="width: 100%;height: auto">
+                </div>
+              
+                <div class=" col-12 col-sm-12 col-md-8 col-lg-8">
+                    <div class="row ">
+                    <div class="getting-padding col-12 col-md-6   px-0  w-100">
+                       
+                        <p id="produit-text">PRODUTO</p>
+                         <div class="form-group">
+                        
+                        <input type="text" class="form-control w-100"  id="Input-filed" value="iPhone 11 Pro Verde meia-noite 256 Gb (A+++)">
+                      </div>
+                    </div>
+                       
+                           
+                     <div class="getting-padding col-6 col-md-2   px-0  w-100">
+                         <p id="produit-text" class="text-center">PREÇO</p>
+                         <div class="form-group">
+                        
+                        <input type="text" class="form-control" id="Input-filed" placeholder="739,00€">
+                      </div>
+                        </div>
+                        
+                           <div class="getting-padding col-6 col-md-2  px-0  ">
+                               <p id="produit-text" class="text-center">QUANTIDADE</p>
+                                    <div class="quantity-sec d-flex justify-content-center"id="Input-filed" >
+                            
+                        <i id="plus"class="fas fa-plus pr-2 pt-2 fa-xs"></i>
+                            <p id="increm">1</p>
+                        <i id="mince"class="fas fa-minus pl-2 pt-2 fa-xs"></i>    
+                        </div>
+                         
+                        </div>
+                        
+                           <div class=" getting-padding col-6 col-md-2 px-0   ">
+                               <p id="produit-text" class="text-center">TOTAL</p>
+                         <div class="form-group">
+                        
+                        <input type="text" class="form-control" id="Input-filed" placeholder="739,00€">
+                      </div>
+                        </div>
+                        <div class="getting-padding col-12 col-sm-12 col-md-6 col-lg-6    px-0 ">
+                                  <div class='form-inline'>
+                 
+                         <div class="form-group ">
+                        
+                        <input type="text" class="Input-filed form-control mr-2" id="Input-filed" value="Código cupão">
+                         <button type="submit" id="promo-btn" >CONTINUAR COMPRAS</button>    
+                      </div>
+                    </div>
+                        </div>
+                        <div class="getting-padding col-12 col-sm-12 col-md-12 col-lg-12  col-lg-6   py-3">
+                            <button type="submit" id="promo-btn" class="float-right" onclick="window.location.href='paiment.html'" >CONTINUAR COMPRAS</button> 
+                        </div>
+                       
+                      
+                        <div class="billing-section col-12 col-sm-12 col-md-8 col-lg-5  w-50 ">
+                            <p id="bil-text">TOTAL DO CARRINHO</p>
+                            <p id="desc-price">
+                            SUBTOTAL <span style="padding-left:15px;font-family:var(--text-fr-family);color:var(--text-sub-color)"> 739,00€</span><br>
+                            ENVIO <span style="padding-left:40px;font-family:var(--text-fr-family);color:var(--text-sub-color)">TAXA FIXA</span><br>
+                            TOTAL<span style="padding-left:50px;font-family:var(--text-fr-family);color:var(--text-sec-color)">739,00€</span>
+                            </p>
+                            <div class="d-inline">
+                            <img src="img/pngegg.png" style="width: 100px;hegiht80px;"><button  type="submit"id="promo-btn" class="float-right">CONTINUAR COMPRAS</button> </div>
+                        </div>
+                       
+                      </div>
+                    </div>   
+             
+            </div>
+        </div>
+    </section>
+    <section>
+ <div class="galerie-section">  
+        <div class="containers">
+            <div class="opp-text"> 
+                <p id="opp-text">Galeria<br>
+                <span id="opp-subtext">Fotografias exclusivas ASAP</span></p>
+                
+            </div>
+        </div>
+     </div> 
+         <div class="containers">
+     <div class="row selling">
+            <div class=" col-dis col-12 col-sm-12 col-md-4">
+                
+                <img class="image-airpod" src='img/airpods.png'><br><br>
+                  
+                <p id="galerie-text"> AirPhones <br><span id="galerie-sub">Bluetooth 5.0</span>       <span id="galerie-text-price"  >60,00€ </span>  </p>
+          
+            </div>
+<div class=" col-dis col-12 col-sm-12 col-md-4">
+               
+                <img class="image-airpod" src='img/airpods.png'><br><br>
+                
+               <p id="galerie-text"> AirPhones Pro<br><span id="galerie-sub">Bluetooth 5.0</span>       <span id="galerie-text-price"  >90,00€ </span>  </p>
+          
+            </div>
+       
+     </div> 
+     <div class=" mx-5 d-flex justify-content-between rating mt-5">
+     <div class="rating-section ">
+     <p id="rating-text" class=" d-inline-block">5.0 &nbsp;
+&nbsp;
+
+
+              <span class="star d-inline-block" style="color:#5482c2;font-size:16px; ">
+                    <i     class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+        
+         </span>
+         </p>
+
+         </div>
+         <div class="followers-section">
+             <div style="text-align: right;position: relative;margin-bottom: 2rem;">  <img src="img/baseline_more_horiz_black_24dp.png" class="img-rate" style="position: absolute;right:0px;border: 1px solid #c2c2c2">
+                <img src="img/images%20(1).jpg" class="img-rate" style="position: absolute;
+    right:15px;">
+                 <img src="img/images%20(2).jpg" class="img-rate" style="position: absolute;
+    right:30px;">
+                 <img src="img/photo-profil_301783868.jpg" class="img-rate" style="position: absolute;
+    right:45px;">
+                 <img src="img/unnamed.jpg" class="img-rate" style="position: absolute;
+    right:60px;"> 
+             </div>
+         <p id="rating-people"><span><img src="img/star.png" style="float-left; padding-right: 5px;"></span><span id="asap">ASAP</span> recommendado por 706 pessoas</p> 
+         </div>
+       
+     </div>
+
+        </div>  
+</section> 
+      <section class="comment-section mt-5">
+          <center>
+    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active"  data-interval="10000000">
+     <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-6 col-md-3">
+                 <div class="">
+                 <img src="img/images%20(1).jpg" class="img-profile" style="position: relative;">
+                     <img src="img/baseline_mode_comment_black_18dp-2.jpg" class="image-comment"></div><br>
+          <div class="star d-inline " style="color:#5482c2">
+                    <i     class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+        
+         </div>
+                 <p class="comment-text">Atendimento rapido e material em otimas condiçoes</p>
+                <p class="comment-subtext">Laura bugalho</p>
+                <p class="comment-date">July 13</p>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                 <div class="">
+                <img src="img/unnamed.jpg" class="img-profile" style="position: relative;">
+                     <img src="img/baseline_mode_comment_black_18dp-2.jpg"class="image-comment"></div><br>
+           <div class="star d-inline " style="color:#5482c2">
+                    <i     class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+        
+         </div>
+                 <p class="comment-text">Atendimento rapido e material em otimas condiçoes</p>
+                <p class="comment-subtext">Laura bugalho</p>
+                <p class="comment-date">July 13</p>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                <div class="">
+                <img src="img/images%20(2).jpg" class="img-profile" style="position: relative;">
+                 <img src="img/baseline_mode_comment_black_18dp-2.jpg"class="image-comment"></div><br>
+            <div class="star d-inline " style="color:#5482c2">
+                    <i     class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+        
+         </div>
+                 <p class="comment-text">Atendimento rapido e material em otimas condiçoes</p>
+                <p class="comment-subtext">Laura bugalho</p>
+                <p class="comment-date">July 13</p>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                <div class="">
+                <img src="img/photo-profil_301783868.jpg" class="img-profile" style="position: relative;">
+                 <img src="img/baseline_mode_comment_black_18dp-2.jpg" class="image-comment"></div><br>
+        <div class="star d-inline " style="color:#5482c2">
+                    <i     class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+        
+         </div>
+                <p class="comment-text">Atendimento rapido e material em otimas condiçoes</p>
+                <p class="comment-subtext">Laura bugalho</p>
+                <p class="comment-date">July 13</p>
+            </div>
+        </div>
+    </div>
+    </div>
+      <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-6 col-md-3">
+                 <div class="">
+                 <img src="img/images%20(1).jpg" class="img-profile" style="position: relative;">
+                     <img src="img/baseline_mode_comment_black_18dp-2.jpg" class="image-comment"></div><br>
+           <div class="star d-inline " style="color:#5482c2">
+                    <i     class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+        
+         </div>
+                 <p class="comment-text">Atendimento rapido e material em otimas condiçoes</p>
+                <p class="comment-subtext">Laura bugalho</p>
+                <p class="comment-date">July 13</p>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                 <div class="">
+                <img src="img/unnamed.jpg" class="img-profile" style="position: relative;">
+                     <img src="img/baseline_mode_comment_black_18dp-2.jpg"class="image-comment"></div><br>
+          <div class="star d-inline " style="color:#5482c2">
+                    <i     class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+        
+         </div>
+                 <p class="comment-text">Atendimento rapido e material em otimas condiçoes</p>
+                <p class="comment-subtext">Laura bugalho</p>
+                <p class="comment-date">July 13</p>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                <div class="">
+                <img src="img/images%20(2).jpg" class="img-profile" style="position: relative;">
+                 <img src="img/baseline_mode_comment_black_18dp-2.jpg"class="image-comment"></div><br>
+           <div class="star d-inline " style="color:#5482c2">
+                    <i     class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+        
+         </div>
+                 <p class="comment-text">Atendimento rapido e material em otimas condiçoes</p>
+                <p class="comment-subtext">Laura bugalho</p>
+                <p class="comment-date">July 13</p>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                <div class="">
+                <img src="img/photo-profil_301783868.jpg" class="img-profile" style="position: relative;">
+                 <img src="img/baseline_mode_comment_black_18dp-2.jpg" class="image-comment"></div><br>
+       <div class="star d-inline " style="color:#5482c2">
+                <i  class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+        
+         </div>
+                <p class="comment-text">Atendimento rapido e material em otimas condiçoes</p>
+                <p class="comment-subtext">Laura bugalho</p>
+                <p class="comment-date">July 13</p>
+            </div>
+        </div>
+    </div>
+    </div>
+      <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-6 col-md-3">
+                 <div class="">
+                 <img src="img/images%20(1).jpg" class="img-profile" style="position: relative;">
+                     <img src="img/baseline_mode_comment_black_18dp-2.jpg" class="image-comment"></div><br>
+           <div class="star d-inline " style="color:#5482c2">
+                    <i     class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+        
+         </div>
+                 <p class="comment-text">Atendimento rapido e material em otimas condiçoes</p>
+                <p class="comment-subtext">Laura bugalho</p>
+                <p class="comment-date">July 13</p>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                 <div class="">
+                <img src="img/unnamed.jpg" class="img-profile" style="position: relative;">
+                     <img src="img/baseline_mode_comment_black_18dp-2.jpg"class="image-comment"></div><br>
+                <div class="star d-inline " style="color:#5482c2">
+                    <i     class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+        
+         </div>
+                 <p class="comment-text">Atendimento rapido e material em otimas condiçoes</p>
+                <p class="comment-subtext">Laura bugalho</p>
+                <p class="comment-date">July 13</p>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                <div class="">
+                <img src="img/images%20(2).jpg" class="img-profile" style="position: relative;">
+                 <img src="img/baseline_mode_comment_black_18dp-2.jpg"class="image-comment"></div><br>
+                <div class="star d-inline " style="color:#5482c2">
+                    <i     class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+        
+         </div>
+                 <p class="comment-text">Atendimento rapido e material em otimas condiçoes</p>
+                <p class="comment-subtext">Laura bugalho</p>
+                <p class="comment-date">July 13</p>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                <div class="">
+                <img src="img/photo-profil_301783868.jpg" class="img-profile" style="position: relative;">
+                 <img src="img/baseline_mode_comment_black_18dp-2.jpg" class="image-comment"></div><br>
+             <div class="star d-inline " style="color:#5482c2">
+                    <i     class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+        
+         </div>
+                <p class="comment-text">Atendimento rapido e material em otimas condiçoes</p>
+                <p class="comment-subtext">Laura bugalho</p>
+                <p class="comment-date">July 13</p>
+            </div>
+        </div>
+    </div>
+    </div> 
+   
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next"  href="#carouselExampleIndicators1" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"style="" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>    
+    </center> 
+    </section>
+    <section>
+        <div class="footer row justify-content-center mt-6 ">
+            <div class="col-12 col-sm-12 col-md-5">
+                
+               <div class="input-group justify-content-center">
+                        <label for='newsletter' id="newsletter-text">Newsletter </label>     
+                        <input type="text" name="newsletter" id="newsletter"class="form-control" placeholder="O Seu Endereço de Email"aria-label="Recipient's username" aria-describedby="basic-addon2" style="border: 1px solid black; ">
+                          <div class="input-group-append">
+                              <button type="button" class="btn btn-outline-secondary btn-sm" style="background-color:black;color:white;">Subscrever</button>
+                          </div>
+
+                </div>
+            </div>
+         
+        </div>
+            <div class="text-center mt-5">
+               <div class="icon-section ">
+                    <i class="fab fa-facebook-f icon-bor-fb mx-3 " ></i>
+                    <i class="fab fa-instagram icon-bor mx-3"  ></i>
+                    <i class="fab fa-twitter icon-bor mx-3"></i>
+                    <i class="fab fa-youtube icon-bor mx-3" ></i>
+                    <i class="fab fa-pinterest-p icon-bor mx-3" ></i>
+                </div>
+                <div class="link-sec"><br>
+                    <p>
+                    <a href="#">Termos e condições |</a>
+                    <a href="#">Compras e devoluções | </a>
+                    <a href="#">Políticas de privacidade</a><br>
+                    <a href="#">Sobre nós | </a>
+                    <a href="#">Contactos </a>
+                    </p>
+                </div>
+            </div>        
+    </section>
+<script>
+    
+function openNav() {
+  document.getElementById("mySidebar").style.height = "80%";
+  document.getElementById("mySidebar").style.paddingTop = "60px";
+  $('header').not("#mySidebar").css("filter","blur(8px)");
+  $('section').css("filter","blur(8px)");
+  document.getElementById("mySidebar").style.transition=('height 1s');
+  document.getElementById("mySidebar").style.paddingTop = "60px";
+  $('.bgs-transparent').fadeOut();
+    $('#phone-name').removeAttr('class','sticky-top')
+        $('.bgs-transparent').delay(500).fadeOut()
+       $('#phone-name').delay(500).fadeout();
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.height = "0";
+    document.getElementById("mySidebar").style.paddingTop = "0px";
+    $('header').not("#mySidebar").css("filter","none");
+    $('.bgs-transparent').delay(500).fadeIn(500)
+    $('section').css("filter","none");
+     $('#phone-name').attr('class','sticky-top') 
+  $('.bgs-transparent').delay(500).fadeIn()
+       $('#phone-name').delay(500).fadeIn();
+    
+}
+ 
+ 
+    function openNavIphone() {
+        document.getElementById("SidebarIphone").style.height = "60%";
+        document.getElementById("SidebarIphone").style.transition=('height 1s');
+        $('header').not("#mySidebar").css("filter","blur(8px)");
+        $('section').css("filter","blur(8px)");
+        $('.bgs-transparent').fadeOut()
+           $('#phone-name').removeAttr('class','sticky-top')
+            $('.bgs-transparent').delay(500).fadeOut()
+       $('#phone-name').delay(500).fadeOut();
+        
+}
+
+
+function closeNavIphone() {
+      document.getElementById("SidebarIphone").style.height = "0px";
+     
+       $('header').not("#mySidebar").css("filter","none");
+  
+         $('section').css("filter","none");
+       
+              $('#title-text').delay(500).fadeIn(500)
+    $('.bgs-transparent').delay(500).fadeIn(500)
+    $('#phone-name').attr('class','sticky-top') 
+
+$('.bgs-transparent').delay(500).fadeIn()
+       $('#phone-name').delay(500).fadeIn();
+        
+      
+
+}
+    function openNavAcc() {
+        document.getElementById("SidebarAcc").style.height = "20%";
+      document.getElementById("SidebarAcc").style.transition=('height 1s');
+        $('header').not("#mySidebar").css("filter","blur(8px)");
+        $('section').css("filter","blur(8px)");
+        $('.bgs-transparent').fadeOut()
+         $('#phone-name').fadeOut();
+          }
+
+
+
+
+function closeNavAcc() {
+   document.getElementById("SidebarAcc").style.height = "0";
+    
+       $('header').not("#mySidebar").css("filter","none");
+  
+         $('section').css("filter","none");
+  $('.bgs-transparent').fadeIn()
+       $('#phone-name').fadeIn();
+}
+/*------------------------scroll--------------------*/
+    $( "body" ).scroll(function(e) {
+
+    if ($("body").scrollTop()==0){
+         $( ".bgs-transparent " ).css( "background","rgba(255, 255, 255, 0)" );
+  $( ".bgs-transparent " ).css( "transition","background-color 500ms" );
+  $( "#title-text" ).css( "color","#01A89C" );
+        $( ".icons-bars" ).css( "color","#01A89C" );
+
+    }else{
+         $( ".bgs-transparent " ).css( "background","rgba(255, 255, 255, 0.95)" );
+  $( ".bgs-transparent " ).css( "transition","background-color 500ms" );
+        $( "#title-text" ).css( "color","#01A89C" );
+        $( ".icons-bars" ).css( "color","#01A89C" );
+       
+    }
+ 
+})
+ 
+      Aacessórios =  $('.Aacessórios');
+      $(Aacessórios).click(  function(){
+           var valid=true;
+            container =  $('#SidebarAcc');
+           document.onclick=function ( e ) {
+        
+         
+               if (Aacessórios.is(e.target))
+           {
+              openNavAcc()
+               valid=true;
+              
+            }else if(valid){
+                if (!container.is(e.target)){
+                         closeNavAcc();
+                    
+                 valid=false;
+               return false;
+            }}
+           }
+    })
+  iPhones =  $('.iPhones');
+   
+
+$(iPhones).click(  function(){  
+            var valid=true
+            container1 =  $('#SidebarIphone');
+            $('body ').click(function (e){
+
+            if (iPhones.is(e.target))
+         {
+              openNavIphone();
+              
+              valid=true;
+           
+         }else if(valid){
+             if (!$(e.target).closest("#SidebarIphone").length ){
+
+               closeNavIphone();
+               valid=false;
+               return false;
+            
+             }
+              
+             
+         }})})
+/*--------------------------responsive jquery----------------------*/
+$(document).ready(function() {
+var $window = $(window);
+    var input=document.querySelectorAll('#Input-filed')
+
+function checkWidth() {
+  var windowsize = $window.width();
+  if (windowsize < 768) {
+  $('.rating').removeClass('mx-5');
+  $('.rating').addClass('mx-2');
+  $('.fa-star').addClass('fa-xs');
+  $('.footer').removeClass('mt-6');
+  $('.footer').addClass('mt-4');
+  $('#newsletter').removeClass('form-control') ;   
+  $('#newsletter').addClass('form-control-sm');
+       $('.fab').addClass('fa-xs');
+      $('.icon-bor').removeClass('mx-3');
+    $('.fab').addClass('mx-2');
+    $('.icon-bor-1').removeClass('mx-2');
+    $('.icon-bor-1').removeClass('mx-2');
+     $('.col-dis').addClass('p-0'); 
+      $('.col-dis ').removeClass('px-3');
+     $('.selling').addClass('mx-1'); 
+     $('.selling').removeClass('mx-3');
+        $('.outlet-text').removeClass('pl-5'); 
+        $('.outlet-text').addClass('pl-2'); 
+       $(input).removeClass('form-control'); 
+        $(input).addClass('form-control-sm');
+     $(' .getting-padding').removeClass('px-0'); 
+    
+
+       
+  }
+ else{
+  $('.rating').addClass('mx-5');
+  $('.rating').removeClass('mx-2');
+  $('.fa-star').removeClass('fa-xs');
+  $('.footer').addClass('mt-6');
+  $('.footer').removeClass('mt-4');
+  $('#newsletter').addClass('form-control') ;   
+  $('#newsletter').removeClass('form-control-sm'); 
+    $('.icon-bor').addClass('mx-3');
+    $('.icon-bor').removeClass('mx-2');
+     $('.icon-borr').removeClass('fa-xs');
+     $('.icon-bor-1').addClass('mx-2');
+      $('.col-dis ').addClass('px-3'); 
+      $('.col-dis ').removeClass('p-0');
+     $('.selling').addClass('mx-3'); 
+     $('.selling').removeClass('mx-1'); 
+       $('.outlet-text').addClass('pl-5'); 
+     $(input).addClass('form-control');
+      $(input).removeClass('form-control-sm'); 
+        $(' .getting-padding').addClass('px-0');  
+     
+  }}
+  checkWidth();
+  $(window).resize(checkWidth);
+})
+    
+    
+
+    var i=1;
+$('#plus').click(function(){
+
+    i++;
+    $('#increm').html(i)
+})
+    $('#mince').click(function(){
+    if(i>1){
+      i--;
+    $('#increm').html(i)  
+    }    
+    
+})
+    
+
+
+</script>    
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>    

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.5.1.js"integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="font/style.css">
+     <link rel="stylesheet" href="product.css">
+    
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+       <style>
+    body, html {
+        color: #3C3F41;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+        overflow-x: hidden;
+        position: relative;
+        
+      }   
+ 
+    </style>
+</head>
+<body>
+    
+<div id="mySidebar" class="sidebar" style="z-index:1">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="warrper">
+    
+  <nav class="navbar navbar-expand-lg navbar-light p-0 justify-content-center" id="sidebar">
+
+                <div class="w-100">
+                   <div class="text-center"><img src='img/asap%202020%201.png' alt="asap" id="logo-image-1" ></div>
+                    <div class="input-group mt-2 mx-4" style="width: auto;">
+                      <div class="input-group-prepend ">
+                        <a href="#"class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></a>
+                      </div>
+                      <input type="text" class="form-control" id="btnbtn" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="flags mt-3"><center>
+                        <img src="img/united-kingdom-flag-icon-32.png" alt="uk">
+                        <img src="img/france-flag-icon-32.png" alt="fr">
+                        <img src="img/portugal-flag-icon-32.png" alt="pr">
+                        <img src="img/spain-flag-icon-32.png" alt="sp"></center>
+                    </div>
+                    <div class="d-flex flex-column mt-2">
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">Loja</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">Reparações</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">Blog</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">Testemunhos</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">Galeria</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">Aminhaconta</p></a>
+                   
+                   
+                  </div>
+                    <center class="mt-4" style="color:var(--text-third-color)">
+                    <i class="fab fa-facebook-f fa-sm icon-bor-1-fb  mx-1" ></i>
+                    <i class="fab fa-instagram fa-sm icon-bor-1 mx-1"  ></i>
+                    <i class="fab fa-twitter fa-sm icon-bor-1 mx-1"></i>
+                    <i class="fab fa-youtube fa-sm icon-bor-1 mx-1 " ></i>
+                    <i class="fab fa-pinterest-p fa-sm icon-bor-1 mx-1" ></i>
+                    </center>
+                </div>
+           
+        </nav>
+        </div>
+</div>
+
+
+ <div id="SidebarIphone" class="sidebarIphone" style="z-index: 2">
+     
+  <p class="dropdown-flag" style="text-align: center">Iphone</p>
+  <nav class="navbar navbar-expand-lg navbar-light justify-content-center p-0 " id="sidebar">
+     
+<div class="d-flex flex-column mt-3 w-100 "> 
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 6s</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 6s Plus</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 7</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 7 Plus</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 8</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 8 Plus</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone X</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone XS</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 11</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 11 Pro</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">iPhone 11 Pro Max</p></a>
+                   
+                   
+                 </div>
+           
+        </nav>
+     </div>
+    
+    <div id="SidebarAcc" class="sidebarAcc">
+   <p class="dropdown-flag" style="text-align: center">Aacessórios</p>
+  
+  <nav class="navbar navbar-expand-lg navbar-light justify-content-center p-0" id="sidebar">
+
+                    <div class="d-flex flex-column mt-3 w-100 mb-4 "> 
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">AirPhones</p></a>
+                     <a class="dropdown-flag " href='#'><p class="ml-5 mb-1">AirPhones Pro</p></a>
+
+
+      </div>
+           
+        </nav>
+        </div>
+
+
+
+
+<header> 
+       <nav class="navbar  sticky-top navbar-expand-lg bgs-transparent py-0 justify-content-between" style="height: 40px;    flex-flow: row nowrap;">
+        <img src='img/asap.png' alt="asap"id="logo-image">
+            <p id="title-text"> <a class="iPhones " onclick="openNavIphone()">iPhones </a> |  <a class="Aacessórios" onclick="openNavAcc()">Aacessórios</a></p>
+        
+        <div class="icons-bars pr-2">  
+            <i class="fas fa-shopping-cart fa-flip-horizontal  2x mt-1" ></i>
+             <a type="button" id="sidebarCollpase">
+              <a class=" float-right" > <span  ><i class="burger-icon fas fa-bars  2x"></i> </span></a>  
+            </a>
+         </div>
+    </nav>   
+</header>   
+    <section id="phone-name" class="sticky-top">
+        <div class="containers-1">
+        <div class="d-flex justify-content-between">
+            <p id="iphone-name">iPhone 11 Pro</p>
+            <p id="iphone-name">Desde 650€</p>
+        </div>
+        </div>    
+    </section>
+    <section id="phone-section">
+        <div class="containers">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="info-section  justify-content-center">
+                        <div class="img-phone">
+                            <center><img src="img/iPhone_11.jpg" alt="iphone" id="img-iphone-sec" style=""></center>
+                        </div>
+                    </div>
+                    <p id="phone-description">
+                        Especificações técnicas:
+                    </p>
+                    <p id="phone-description-0">
+                        Estado: Semi-novo<br>
+                        Rede: Desbloqueado a todas as redes<br>
+                        Ecrã: Retina HD multi-touch de 5,8 polegadas (Diagonal)<br>
+                        Câmara: iSight de 12 Megapixeis com Flash True Tone<br>
+                        Face ID: Sim<br><br>
+                        Inclui: Carregador (Cabo USB + ficha) + Fatura e garantia de 1 ano<br>
+                        Oferta: Capa de Silicone transparente + Película de Vidro Temperado<br>
+                    </p><br>
+                    <p id="phone-description-1">
+                        Serviço de Satisfação Garantida:<br>
+                        Se não ficar satisfeito/a devolvemos o seu dinheiro
+                    </p>
+                    <br><br>
+                    <p id="phone-description-2">
+                        Podemos ajudar?<br>
+                        info@asapreuse.com<br>
+                        936 813 882 | 936 652 515
+                    </p>
+                </div>
+                <div class="phone-section col-12 col-sm-12 col-md-6 col-lg-6 mb-3 ">
+                    <p id="iphone-color">1o Escolha a cor</p>
+                    <div class="row color-section mx-2" id="color-style">
+                        <div class="color-border-1 col-5 col-sm-5 col-md-5 col-lg-5 m-2">
+                            <div class="justify-content-center">
+                               <center> <img src="img/finish-black-201909.jpg"  alt="" id="color-img">
+                                        <p class="color-type">Preto</p>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="color-border-1 col-5 col-sm-5 col-md-5 col-lg-5 m-2">
+                            <center><img src="img/finish-yellow-201909.jpg" alt="" id="color-img">
+                                <p class="color-type">Amarelo</p>
+                            </center>
+                        </div>
+                          <div class="color-border-1 col-5 col-sm-5 col-md-5 col-lg-5 m-2">
+                           <center><img src="img/finish-red-201909.jpg" id="color-img">
+                                <p class="color-type">Red</p>
+                              </center> 
+                        </div>
+                          <div class="color-border-1 col-5 col-sm-5 col-md-5 col-lg-5 m-2">
+                           <center> <img src="img/finish-green-201909.jpg" id="color-img">
+                                    <p class="color-type">Verde</p>
+                              </center>
+                        </div>
+                    </div>
+                    <p id="iphone-color">2o Escolha a Capacidade</p>
+                    <div class="row mx-2">
+                        <div class="color-border-2 col-5 col-sm-5 col-md-5 col-lg-5 m-2" id="color-style-1">
+                            <div class="justify-content-center">
+                               <center> <p id="size-iphone">64GB</p></center>
+                            </div>
+                        </div>
+                        <div class="color-border-2 col-5 col-sm-5 col-md-5 col-lg-5 m-2">
+                            <center> <p id="size-iphone">256GB</p></center>
+                        </div>
+                          <div class="color-border-2 col-5 col-sm-5 col-md-5 col-lg-5 m-2">
+                           <center> <p id="size-iphone">512GB</p></center> 
+                        </div>
+                        
+                    </div>
+                    <p id="iphone-color">3o Escolha a Categoria</p>
+                    <div class="row mx-2">
+                        <div class="color-border-3 col-5 col-sm-5 col-md-5 col-lg-5 m-2">
+                            <div class="justify-content-center">
+                                <center> <p id="size-iphone">A</p>
+                                <p id="size-iphone-1">Este equipamento está<br>
+                                    praticamente como<br>
+                                    novo</p></center>
+                            </div>
+                        </div>
+                        <div class="color-border-3 col-5 col-sm-5 col-md-5 col-lg-5 m-2">
+                             <center> <p id="size-iphone">A+++</p>
+                                <p id="size-iphone-1">Este equipamento pode<br>
+                                    ter uma ou outra marca<br>
+                                    mínima de uso</p>
+                            </center> 
+                        </div>
+                    </div> 
+                    <div class="pricing-sec pb-1">
+                    <div class="containers"> 
+                       
+                    <div class="d-flex justify-content-between pt-3 pb-1 mx-3">
+                        <div class="">
+                         <p id="size-iphone-1">Quantidade</p>
+                            <div class="quantity-sec d-flex justify-content-center">
+                            
+                        <i id="plus"class="fas fa-plus pr-2 pt-2 fa-sm"></i>
+                            <p id="increm"style=" font-size: 18px;font-family: var(--text-th-family);font-family:firstFont;">1</p>
+                        <i id="mince"class="fas fa-minus pl-2 pt-2 fa-sm"></i>    
+                        </div>
+                        </div>
+                        
+                        <p id="price-iphone">0,00&euro;</p>
+                    </div>
+                        <button type="submit"  onclick="window.location.href='select-product.html'"id="quantity-btn">ADICIONE AO CARRINHO</button>
+                    </div>    
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+      <section id="opportunity">
+
+    <div class="opportunity-section">  
+        <div class="containers">
+            <div class="opp-text"> 
+                <p id="opp-text" style="">TAMBÉM PODERÁS GOSTAR DE </p>
+              
+            </div>
+        </div>
+     </div>  
+     
+        <div class="row mx-1">
+            <div class=" col-dis col-12 col-sm-6 col-md-6 col-lg-3">
+                
+                <img class="image-iphone" src='img/iPhone_11.jpg'><br>
+                <p id="iphone-price">iPhone 6S <br><span  style="color:#acafb0">Cinzento Sideral 32gb (A)</span><span class="float-right">169,00€ </span> </p>
+            </div>
+            <div class=" col-dis col-12 col-sm-6 col-md-6 col-lg-3">
+                <img class="image-iphone" src='img/iphone-11-pro-2019-frandroid.png' style
+                     ="background-color: #f4f4f3;"><br>
+                <p id="iphone-price">iPhone 6S <br><span  style="color:#acafb0">Cinzento Sideral 32gb (A)</span><span class="float-right">169,00€ </span> </p>
+            </div>
+            <div class=" col-dis col-12 col-sm-6 col-md-6 col-lg-3">
+                <img  class="image-iphone" src='img/apple-iphone-7-1.png' style
+                     ="background-color: #f4f4f3; "><br>
+                <p id="iphone-price">iPhone 6S <br><span  style="color:#acafb0">Cinzento Sideral 32gb (A)</span><span class="float-right">169,00€ </span> </p>
+                
+            </div>
+           <div class=" col-dis col-12 col-sm-6 col-md-6 col-lg-3">
+                <img class="image-iphone" src='img/iPhone_11.jpg'><br>
+                <div class=" justify-content-between">
+                <p id="iphone-price">iPhone 6S <br><span  style="color:#acafb0">Cinzento Sideral 32gb (A)</span><span class="float-right">169,00€ </span> </p>
+                
+                </div>
+            </div>
+         </div>
+</section>
+     <section>
+        <div class="footer row justify-content-center mt-6 ">
+            <div class="col-12 col-sm-12 col-md-5">
+                
+               <div class="input-group justify-content-center">
+                        <label for='newsletter' id="newsletter-text">Newsletter </label>     
+                        <input type="text" name="newsletter" id="newsletter"class="form-control" placeholder="O Seu Endereço de Email"aria-label="Recipient's username" aria-describedby="basic-addon2" style="border: 1px solid black; ">
+                          <div class="input-group-append">
+                              <button type="button" class="btn btn-outline-secondary btn-sm" style="background-color:black;color:white;">Subscrever</button>
+                          </div>
+
+                </div>
+            </div>
+         
+        </div>
+            <div class="text-center mt-5">
+               <div class="icon-section ">
+                    <i class="fab fa-facebook-f icon-bor-fb mx-3 " ></i>
+                    <i class="fab fa-instagram icon-bor mx-3"  ></i>
+                    <i class="fab fa-twitter icon-bor mx-3"></i>
+                    <i class="fab fa-youtube icon-bor mx-3" ></i>
+                    <i class="fab fa-pinterest-p icon-bor mx-3" ></i>
+                </div>
+                <div class="link-sec"><br>
+                    <p>
+                    <a href="#">Termos e condições |</a>
+                    <a href="#">Compras e devoluções | </a>
+                    <a href="#">Políticas de privacidade</a><br>
+                    <a href="#">Sobre nós | </a>
+                    <a href="#">Contactos </a>
+                    </p>
+                </div>
+            </div>        
+    </section>
+    </body>
+</html>
+<script type="application/javascript">
+
+var r = document.getElementById('color-style');
+var a = document.getElementById('color-style');
+var l = document.getElementById('size-iphone');
+var x = document.getElementsByClassName('color-border-1')
+var y = document.getElementsByClassName('color-border-2')
+var v = document.getElementsByClassName('color-border-3')
+$('.color-border-3').css("filter","blur(3px)"); 
+$('.color-border-2').css("filter","blur(3px)"); 
+for (var i = 0; i < x.length; i++) {
+    x[i].addEventListener("click", function(){
+   
+        
+    $('#color-style').addClass('form-checks');     
+    var selectedEl = document.querySelector(".color-border-hover");
+    if(selectedEl){
+     
+    selectedEl.classList.remove("color-border-hover");
+    }$('.color-border-2').css("filter","none");
+          $('.color-border-2').css("-o-transition 2s ","-o-filter linear;"); 
+    this.classList.add("color-border-hover");
+      
+    if($(r).hasClass('form-checks')){
+        for (var k = 0; k < y.length; k++) {
+        y[k].addEventListener("click", function(){
+            
+        var selectedEl1 = document.querySelector(".color-border-hover-1");
+        if(selectedEl1){
+        selectedEl1.classList.remove("color-border-hover-1");
+        }
+          $('.color-border-3').css("filter","none");
+          $('.color-border-3').css("-o-transition 2s ","-o-filter linear;");
+            
+        this.classList.add("color-border-hover-1"); 
+        $('#color-style-1').addClass('form-checks-1'); 
+        if($('#color-style-1').hasClass('form-checks-1')){  
+        for (var m = 0; m < v.length; m++) {
+        v[m].addEventListener("click", function(){
+        var selectedEl2 = document.querySelector(".color-border-hover-2");
+            $('#color-style').addClass('form-done');  
+        if(selectedEl2){
+        selectedEl2.classList.remove("color-border-hover-2");
+        }
+        this.classList.add("color-border-hover-2"); 
+           $('#price-iphone').html('699&euro;')
+    })}}
+    })}
+     }
+         
+           
+        
+    }, false)
+}
+      
+
+$(document).ready (
+    function() {
+    $( ".phone-section" ).animate({
+    opacity: 1,
+    transition: "opacity 0.2s ease-out",
+
+}, 1500 );
+
+})
+    function openNav() {
+  document.getElementById("mySidebar").style.height = "80%";
+  document.getElementById("mySidebar").style.paddingTop = "60px";
+  $('header').not("#mySidebar").css("filter","blur(8px)");
+  $('section').css("filter","blur(8px)");
+  document.getElementById("mySidebar").style.transition=('height 1s');
+  document.getElementById("mySidebar").style.paddingTop = "60px";
+  $('.bgs-transparent').fadeOut();
+    $('#phone-name').removeAttr('class','sticky-top')
+        $('.bgs-transparent').delay(500).fadeOut()
+       $('#phone-name').delay(500).fadeout();
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.height = "0";
+    document.getElementById("mySidebar").style.paddingTop = "0px";
+    $('header').not("#mySidebar").css("filter","none");
+    $('.bgs-transparent').delay(500).fadeIn(500)
+    $('section').css("filter","none");
+     $('#phone-name').attr('class','sticky-top') 
+  $('.bgs-transparent').delay(500).fadeIn()
+       $('#phone-name').delay(500).fadeIn();
+    
+}
+ 
+ 
+    function openNavIphone() {
+        document.getElementById("SidebarIphone").style.height = "60%";
+        document.getElementById("SidebarIphone").style.transition=('height 1s');
+        $('header').not("#mySidebar").css("filter","blur(8px)");
+        $('section').css("filter","blur(8px)");
+        $('.bgs-transparent').fadeOut()
+           $('#phone-name').removeAttr('class','sticky-top')
+            $('.bgs-transparent').delay(500).fadeOut()
+       $('#phone-name').delay(500).fadeOut();
+        
+}
+
+
+function closeNavIphone() {
+      document.getElementById("SidebarIphone").style.height = "0px";
+     
+       $('header').not("#mySidebar").css("filter","none");
+  
+         $('section').css("filter","none");
+       
+              $('#title-text').delay(500).fadeIn(500)
+    $('.bgs-transparent').delay(500).fadeIn(500)
+    $('#phone-name').attr('class','sticky-top') 
+
+$('.bgs-transparent').delay(500).fadeIn()
+       $('#phone-name').delay(500).fadeIn();
+        
+      
+
+}
+    function openNavAcc() {
+        document.getElementById("SidebarAcc").style.height = "20%";
+      document.getElementById("SidebarAcc").style.transition=('height 1s');
+        $('header').not("#mySidebar").css("filter","blur(8px)");
+        $('section').css("filter","blur(8px)");
+        $('.bgs-transparent').fadeOut()
+         $('#phone-name').fadeOut();
+          }
+
+
+
+
+function closeNavAcc() {
+   document.getElementById("SidebarAcc").style.height = "0";
+    
+       $('header').not("#mySidebar").css("filter","none");
+  
+         $('section').css("filter","none");
+  $('.bgs-transparent').fadeIn()
+       $('#phone-name').fadeIn();
+}
+/*------------------------scroll--------------------*/
+    $( "body" ).scroll(function(e) {
+
+    if ($("body").scrollTop()==0){
+         $( ".bgs-transparent " ).css( "background","rgba(255, 255, 255, 0)" );
+  $( ".bgs-transparent " ).css( "transition","background-color 500ms" );
+  $( "#title-text" ).css( "color","#01A89C" );
+        $( ".icons-bars" ).css( "color","#01A89C" );
+
+    }else{
+         $( ".bgs-transparent " ).css( "background","rgba(255, 255, 255, 0.95)" );
+  $( ".bgs-transparent " ).css( "transition","background-color 500ms" );
+        $( "#title-text" ).css( "color","#01A89C" );
+        $( ".icons-bars" ).css( "color","#01A89C" );
+       
+    }
+ 
+})
+ 
+    
+/*--------------------------responsive jquery----------------------*/
+$(document).ready(function() {
+var $window = $(window);
+function checkWidth() {
+  var windowsize = $window.width();
+  if (windowsize < 768) {
+  $('.rating').removeClass('mx-5');
+  $('.rating').addClass('mx-2');
+  $('.fa-star').addClass('fa-xs');
+  $('.footer').removeClass('mt-6');
+  $('.footer').addClass('mt-4');
+  $('#newsletter').removeClass('form-control') ;   
+  $('#newsletter').addClass('form-control-sm');
+       $('.icon-borr').addClass('fa-xs');
+      $('.icon-bor').removeClass('mx-3');
+    $('.fab').addClass('mx-2');
+      $('.outlet-text').removeClass('pl-5'); 
+    $('.icon-bor-1').removeClass('mx-2');
+    $('.icon-bor-1').removeClass('mx-2');
+     $('.col-dis').addClass('p-0'); 
+      $('.col-dis ').removeClass('px-3');
+      $('.col-dis ').removeClass('px-3');
+     $('.selling').addClass('mx-1'); 
+     
+
+       
+  }
+ else{
+  $('.rating').addClass('mx-5');
+  $('.rating').removeClass('mx-2');
+  $('.fa-star').removeClass('fa-xs');
+  $('.footer').addClass('mt-6');
+  $('.footer').removeClass('mt-4');
+  $('#newsletter').addClass('form-control') ;   
+  $('#newsletter').removeClass('form-control-sm'); 
+    $('.icon-bor').addClass('mx-3');
+    $('.icon-bor').removeClass('mx-2');
+     $('.icon-borr').removeClass('fa-xs');
+     $('.icon-bor-1').addClass('mx-2');
+      $('.col-dis ').addClass('px-3'); 
+      $('.col-dis ').removeClass('p-0');
+     $('.selling').addClass('mx-3'); 
+     $('.selling').removeClass('mx-1'); 
+     $('.outlet-text').removeClass('mx-1'); 
+        
+     
+  }}
+  checkWidth();
+  $(window).resize(checkWidth);
+})
+    var i=1;
+$('#plus').click(function(){
+
+    i++;
+    $('#increm').html(i)
+})
+    $('#mince').click(function(){
+    if(i>1){
+      i--;
+    $('#increm').html(i)  
+    }    
+    
+})
+    
+
+</script>
+     <script type="application/javascript" src="scrolljs-1.js"></script>
+     <script type="application/javascript" src="function.js"></script>

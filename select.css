@@ -1,0 +1,243 @@
+#continue-btn{
+     font-size: 20px;
+    font-family: var(--text-th-family);
+    font-family:firstFont;
+    color:#fff;
+    border: none;
+    padding: 10px 20px;
+    background-color: var(--text-sec-color);
+    border-radius: 15px;
+  -webkit-box-shadow: -4px -4px 23px 2px rgba(0,0,0,0.32);
+-moz-box-shadow: -4px -4px 23px 2px rgba(0,0,0,0.32);
+box-shadow: -4px -4px 23px 2px rgba(0,0,0,0.32);
+    
+    
+}
+#increm{font-size: 18px;font-family: var(--text-th-family);font-family:firstFont;}
+#produit-text{
+     line-height: 1;
+    color:#8d8f90;
+    font-size: 10px;
+    font-family: var(--text-th-family);
+    margin-bottom: 5px;
+}
+.form-control{
+ 
+    border-radius: 2px  ;
+    border: 1px solid var(--text-sub-color);
+    color:#8d8f90;
+    font-size: 18px;
+    font-family: firstFont;
+}
+#promo-btn{
+     font-size: 16px;
+
+    font-family:firstFont;
+    color:#fff;
+    border: none;
+    padding: 10px 20px;
+    background-color: var(--text-sec-color);
+    border-radius: 10px;
+
+    
+    
+}
+.quantity-sec{
+    height: 41px;
+}
+.billing-section{
+    padding-top: 10rem;
+    margin-left:auto; 
+    margin-right:0;
+}
+#bil-text{
+    font-size: 20px;
+    font-family:var(--text-fr-family);
+    color:var(--text-main-color);
+    border-bottom: 2px solid var(--text-main-color);
+    padding-bottom: 10px;
+    
+}
+#phone-section-1{
+    
+    margin-top:1rem;
+    padding-bottom:1rem;
+    border-bottom: 3px solid var(--text-sub-color)
+}
+.image-airpod{
+
+    background-color: #f4f4f3; 
+      
+    width: 100%;
+    max-width: 500px;
+    height: auto;    
+    padding: 2rem 2rem;
+}
+#galerie-text{
+   line-height: 1;
+    color:var(--text-main-color);
+    font-size: 18px;
+    font-family: thirdFont;
+     text-align: left;
+}
+#galerie-sub{
+    line-height: 1;
+     color:var(--text-sub-color);
+    font-size: 16px;
+    font-family: firstFont;
+     text-align: left;
+  
+}
+#galerie-text-price{
+    line-height: 1;
+    color:var(--text-main-color);
+    font-size: 18px;
+    font-family: thirdFont;
+   float:right;
+ 
+     
+}
+@media  only screen and (max-width: 1500px) { 
+body {
+
+}
+   .image-iphone{     
+    background-color: #f4f4f3; 
+       
+    width: 100%;
+    height:auto; 
+    padding:  1rem 0.2rem;
+}
+}
+@media  only screen and (max-width: 1000px) {
+body {
+
+}
+.image-iphone{    
+background-color: #f4f4f3; 
+height:auto;     
+width: 100%;
+padding:  1rem 0.2rem;
+}
+}
+ @media only screen and (max-width:768px) { 
+body {
+
+}
+     .form-control-sm{
+ 
+    border-radius: 2px  ;
+    border: 1px solid var(--text-sub-color);
+    color:#8d8f90;
+    font-size: 14px;
+    font-family: firstFont;
+}
+     #promo-btn{
+     font-size: 11px;
+         margin-left: 15px;
+    font-family:firstFont;
+    color:#fff;
+    border: none;
+    padding: 10px 20px;
+    background-color: var(--text-sec-color);
+    border-radius: 10px;
+
+    
+    
+}
+     .billing-section{
+    padding: 2rem 1rem;
+    margin-left:auto; 
+    margin-right:0;
+}
+
+     #continue-btn{
+     font-size: 16px;
+    font-family: var(--text-th-family);
+    font-family:firstFont;
+    color:#fff;
+    border: none;
+    padding: 10px 20px;
+    background-color: var(--text-sec-color);
+    border-radius: 15px;
+  -webkit-box-shadow: -4px -4px 23px 2px rgba(0,0,0,0.32);
+-moz-box-shadow: -4px -4px 23px 2px rgba(0,0,0,0.32);
+box-shadow: -4px -4px 23px 2px rgba(0,0,0,0.32);
+    
+    
+}
+#produit-text{
+     line-height: 1;
+    color:#8d8f90;
+    font-size: 10px;
+    font-family: var(--text-th-family);
+    margin-bottom: 5px;
+}
+.form-control{
+ 
+    border-radius: 2px  ;
+    border: 1px solid var(--text-sub-color);
+    color:#8d8f90;
+    font-size: 18px;
+    font-family: firstFont;
+}
+
+#bil-text{
+    font-size: 16px;
+    font-family:var(--text-fr-family);
+    color:var(--text-main-color);
+    border-bottom: 2px solid var(--text-main-color);
+    padding-bottom: 10px;
+    
+}
+#phone-section-1{
+    
+    margin-top:1rem;
+    padding-bottom:1rem;
+    border-bottom: 3px solid var(--text-sub-color)
+}
+.image-airpod{
+
+    background-color: #f4f4f3; 
+      
+    width: 100%;
+    max-width: 500px;
+    height: auto;    
+    padding: 2rem 2rem;
+}
+#galerie-text{
+   line-height: 1;
+    color:var(--text-main-color);
+    font-size: 16px;
+    font-family: thirdFont;
+     text-align: left;
+}
+#galerie-sub{
+    line-height: 1;
+     color:var(--text-sub-color);
+    font-size: 14px;
+    font-family: firstFont;
+     text-align: left;
+  
+}
+#galerie-text-price{
+    line-height: 1;
+    color:var(--text-main-color);
+    font-size: 14px;
+    font-family: thirdFont;
+   float:right;
+ 
+     
+}
+     #desc-price{
+         font-size: 14px;
+     }
+     #iphone-name{
+         text-align: center;
+     }
+     #increm{font-size: 14px;font-family: var(--text-th-family);font-family:firstFont;}
+.quantity-sec{
+    height: 31px;
+}
+}
+

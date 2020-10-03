@@ -1,0 +1,189 @@
+:root{
+  --text-main-color: #3C3F41;
+  --text-sec-color: #01A89C;
+  --text-third-color: #92d8d1;
+  --text-sub-color: #acafb0;
+  --text-main-family: 'Poppins', sans-serif;
+  --text-sec-family:secFont ;
+  --text-th-family:thirdFont ;
+  --text-fr-family:firstFont ;
+  --text-title-family:firstFont ;
+
+    
+}   
+@font-face {
+  font-family: secFont;
+  src: url(font/HelveticaNeueLTProBdIt.woff);
+}
+@font-face {
+  font-family: thirdFont;
+  src: url(font/HelveticaNeueLTProBd.woff);
+}
+@font-face {
+  font-family: firstFont;
+  src: url(font/HelveticaNeueLTProLt.woff);
+}
+@font-face {
+  font-family: titleFont;
+  src: url(font/HelveticaNeueLTProUltLt.woff);
+}
+/*-----------------outlet-section-text--------------------*/
+#intro-section{
+    margin-top:5rem;
+}
+.outlet-text{
+    background-color: #f4f4f3;
+    padding: 15px 0 20px 0;
+    
+}
+#outlet-intro{
+    color: var( --text-sec-color);
+    display: inline-block;
+    width: auto;
+    border-top: 1px solid var( --text-sec-color);
+    border-bottom: 1px solid var( --text-sec-color);
+    font-size: 32px;
+    padding:15px 0;
+}
+#outlet-image{
+   
+    width: 100%;
+    height:300px;
+}
+.image-airpod{
+
+    background-color: #f4f4f3; 
+      
+    width: 100%;
+ 
+    height: auto;    
+    padding: 2rem 6rem;
+}
+  #title-text{
+           font-family: var(--text-fr-family);
+    margin: 0;
+    padding-top: 3px;
+    color:var(--text-sec-color);
+    font-size: 20px;
+     }
+#galerie-text{
+   line-height: 1;
+    color:var(--text-main-color);
+    font-size: 18px;
+    font-family: thirdFont;
+     text-align: left;
+}
+#galerie-sub{
+    line-height: 1;
+     color:var(--text-sub-color);
+    font-size: 16px;
+    font-family: firstFont;
+     text-align: left;
+  
+}
+#galerie-text-price{
+    line-height: 1;
+    color:var(--text-main-color);
+    font-size: 18px;
+    font-family: thirdFont;
+   float:right;
+ 
+     
+}
+#iphone-price{
+    margin-top:0.5rem;
+    line-height: 1;
+    color:var(--text-main-color);
+    font-size: 18px;
+    font-family: var(--text-main-family);
+}
+@media  only screen and (max-width: 1500px) { 
+body {
+
+}
+   .image-iphone{     
+    background-color: #f4f4f3; 
+       
+    width: 100%;
+    height:auto; 
+    padding:  1rem 0.2rem;
+}
+}
+@media  only screen and (max-width: 1000px) {
+body {
+
+}
+.image-iphone{    
+background-color: #f4f4f3; 
+height:auto;     
+width: 100%;
+padding:  1rem 0.2rem;
+}
+}
+ @media only screen and (max-width:768px) { 
+body {
+
+}
+
+.image-iphone{  
+background-color: #f4f4f3;      
+height:auto;     
+width: 100%;
+ padding:  1rem 0.2rem;  
+
+}
+     #galerie-text{
+   line-height: 1;
+    color:var(--text-main-color);
+    font-size: 14px;
+    font-family: thirdFont;
+     text-align: left;
+}
+#galerie-sub{
+    line-height: 1;
+     color:var(--text-sub-color);
+    font-size: 14px;
+    font-family: firstFont;
+     text-align: left;
+  
+}
+#galerie-text-price{
+    line-height: 1;
+    color:var(--text-main-color);
+    font-size: 14px;
+    font-family: thirdFont;
+   float:right;
+   margin-right: 0;
+     
+}
+          #title-text{
+           font-family: var(--text-fr-family);
+    margin: 0;
+    padding-top: 3px;
+    color:var(--text-sec-color);
+    font-size: 16px;
+     }
+     #outlet-intro{
+    color: var( --text-sec-color);
+    display: inline-block;
+    width: auto;
+    border-top: 1px solid var( --text-sec-color);
+    border-bottom: 1px solid var( --text-sec-color);
+    font-size: 16px;
+    padding:5px 0;
+}
+    .image-airpod{
+    background-color: #f4f4f3; 
+    width: 100%;
+    max-width: 500px;
+    height: auto;    
+    padding: 1rem 1rem;
+}
+     #iphone-price{
+    margin-top:0.5rem;
+    line-height: 1;
+    color:var(--text-main-color);
+    font-size: 14px;
+    font-family: var(--text-main-family);
+}
+}
